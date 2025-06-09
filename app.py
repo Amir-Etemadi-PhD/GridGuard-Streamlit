@@ -2,9 +2,10 @@ import streamlit as st
 import pandas as pd
 import numpy as np
 import joblib
+from tensorflow.keras.models import load_model
 import matplotlib.pyplot as plt
 import seaborn as sns
-from tensorflow.keras.models import load_model
+
 
 st.set_page_config(page_title="LSTM Outage Predictor", layout="wide")
 st.title("⚡ LSTM Outage Probability Predictor")
